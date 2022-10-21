@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/login.css">
+</head>
+<body>
+    <div class="login-card-container">
+        <div class="login-card">
+            <div class="login-card-logo">
+                <img src="/img/apple.webp" alt="rasm" width="50px" height="50px" >
+            </div>
+            <div class="login-card-header">
+                <h1>Log In</h1>
+                <div>Please login to use platform</div>
+            </div>
+            <form class="login-card-form">
+                <div class="form-item">
+                    <span class="form-item-icon material-symbols-rounded"></span>
+                    <input id="email" type="text" placeholder="Enter Email" required autofocus>
+                </div>
+                <div class="form-item">
+                    <span class="form-item-icon material-symbols-rounded"></span>
+                    <input id="password" type="password" placeholder="Enter Password" required>
+                </div>
+                <div class="form-item-other">
+
+                    <div class="box">
+                        <p>Male</p>
+                        <input type="radio" name="gender" required>
+                        <p>or</p>
+                        <input type="radio" name="gender" >
+                        <p>Female</p>
+                    </div>
+                    <div class="checkbox">
+                        <input type="checkbox" id="rememberMeCheckbox" required>
+                        <label for="rememberMeCheckbox">I agree with privacy and policy</label>
+                    </div>
+                </div>
+                <button id="btn" type="submit" >Sign In</button>
+            </form>
+            <div class="login-card-footer">
+                Don't have an account? <a href="#">Create a free account</a>
+            </div>
+        </div>
+    </div>
+    <script src="/loginn.js"></script>
+    <script src="/main.js"></script>
+</body>
+</html>
